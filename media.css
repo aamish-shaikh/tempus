@@ -1,0 +1,138 @@
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+@media only screen and (min-width: 575px) and (max-width: 767px){
+
+}
+@media only screen and (min-width: 320px) and (max-width: 574px){
+    .brand-lg{
+        display: block;
+    }
+    .brand-sm{
+        display: none;
+    }
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: auto;
+        gap: 6vh;
+    }
+    .about-us .img-sec{
+        width: 200px;
+        height: 200px;
+    }
+    .about-us img{
+        width: 200px;
+        height: 200px;
+    }
+    .about-us .img-sec::after{
+        content: "";
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 4%;
+        left: 20%;
+        z-index: -5;
+        background-color: rgba(146, 37, 47, 1);
+    }
+    .t-part{
+        padding: 5vw;
+    }
+    .about-us p{
+        letter-spacing: 0;
+        width: 100%;
+    }
+    .g-card-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0 5vw;
+    }
+    .g-card{
+        display: flex;
+        gap: 6vh;
+        width: 40vw;
+        height: 60vw;
+    }
+    .g-card img{
+        width: 40vw;
+    }
+    .g-card-sec{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap:5vw;
+    }
+    .gallery h5{
+        text-align: center;
+    }
+    .services h4{
+        font-weight: 400;
+        color: rgba(147, 37, 46, 1);
+    }
+    .services h2{
+        font-size: 18px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .s-card-sec{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        margin: 5vh 0;
+    }
+    .s-card{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        height: 60vw;
+        box-shadow: 3px 3px 7.900000095367432px 0px rgba(0, 0, 0, 0.09);
+        padding: 2vw;
+    }
+    .s-card h5{
+        font-weight: 500;
+        padding: 2vh 0;
+    }
+    .s-card p{
+        font-weight: 400;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.748);
+    }
+    .s-card img{
+        width: 50px;
+    }
+    .cl-img img {
+        padding: 5vh 0;
+        width: 80%;
+    }
+    .b-sell img {
+        width: 90%;
+    }
+    .process-inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .why-us{
+        height: 24vh;
+    }
+    .why-us h1 {
+        font-size: 16px;
+        padding: 1vh;
+    }
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

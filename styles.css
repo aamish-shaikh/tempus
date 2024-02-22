@@ -1,0 +1,254 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+.brand-lg
+{
+    display: none;
+}
+.navbar-brand img{
+    width: 80px;
+}
+.nav-link{
+    color: black !important;
+    font-weight: 400 !important;
+    padding-left:1.5vw !important;
+    padding-right:1.5vw !important;
+}
+.about-us{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    margin: 10vh 0;
+}
+.about-us .img-sec{
+    width: 250px;
+    height: 250px;
+}
+.about-us img{
+    width: 250px;
+    height: 250px;
+}
+.about-us .img-sec::after{
+    content: "";
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 24%;
+    left: 10%;
+    z-index: -5;
+    background-color: rgba(146, 37, 47, 1);
+}
+.about-us h4{
+    font-weight: 400;
+    color: rgba(147, 37, 46, 1);
+}
+.about-us p{
+    font-weight: 400;
+    color: rgba(61, 61, 61, 0.79);
+    width: 70%;
+    letter-spacing: 1px;
+}
+.gallery{
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items:center ;
+    justify-content: center;
+    padding: 8vh 0;
+}
+.gallery h5{
+    font-weight: 400;
+    color: rgba(61, 61, 61, 1);
+}
+.g-card img{
+    width: 15vw;
+}
+.g-card-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 5vw;
+}
+.g-card{
+    display: flex;
+    gap: 8vh;
+    align-items: center;
+    flex-direction: column;
+    width: 15vw;
+    height: 20vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+
+}
+.services{
+    margin: 5vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services h4{
+    font-weight: 400;
+    color: rgba(147, 37, 46, 1);
+}
+.services h2{
+    text-transform: capitalize;
+}
+.s-card-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.s-card{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 22vw;
+    box-shadow: 3px 3px 7.900000095367432px 0px rgba(0, 0, 0, 0.09);
+    padding: 2vw;
+}
+.s-card h5{
+    font-weight: 500;
+    padding: 2vh 0;
+}
+.s-card p{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.748);
+}
+.s-card img{
+    width: 50px;
+}
+
+.clients{
+    text-align: center;
+    margin: 10vh 0;
+}
+.clients .cl-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF8f8;
+}
+.cl-img img{
+    padding: 10vh 0;
+    width: 60%;
+}
+.b-sell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+.b-sell img{
+    width: 70%;
+}
+.process{
+    margin: 10vh 0;
+}
+.process h3{
+    text-align: center;
+}
+.process h4{
+    text-align: center;
+
+    color: rgba(147, 37, 46, 1);
+    font-weight: 400;
+}
+.process-inner{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #FFF8f8;
+    align-items: center
+}
+.process-inner img{
+    width: 100%;
+}
+.process-inner ul li{
+    letter-spacing: 1px;
+    padding: 1.5vh;
+    list-style-type: none;
+
+}
+.process-inner i{
+    color: rgba(146, 37, 47, 1);
+}
+.tour-btn{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #92252f;
+    color: #fff;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+}
+.counter{
+    width: 80vw;
+}
+.team{
+    margin: 10vh 0;
+}
+.team h3{
+    text-align: center;
+}
+.why-us{
+    height: 90vh;
+    background: url(./assets/Group\ 27.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.why-us h1{
+    padding: 10vh 0;
+}
+footer{
+    background-color: #FFF8f8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.f-left{
+    padding: 5vw;
+}
+.f-right{
+    padding: 5vw;
+}
+.f-left h4{
+    color: #92252f;
+}
+.hed{
+    color: #92252f;
+}
+.sub-head
+{
+    width: 60%;
+}
+footer .logo{
+    width: 100px;
+}
+.f-right p{
+    font-weight: 300;
+}
+.f-right i{
+    font-size: 30px;
+}
