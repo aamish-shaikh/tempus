@@ -20,13 +20,13 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="icon" type="image/x-icon" href="./assets/logo.png" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
   </head>
   <body>
     <div class="main">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand brand-lg" href="#">Navbar</a>
+          <a class="navbar-brand brand-lg" href="./index.html"><img src="./assets/logo.png" alt=""></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -42,7 +42,7 @@
             class="collapse navbar-collapse justify-content-evenly"
             id="navbarNav"
           >
-            <a class="navbar-brand brand-sm" href="#"
+            <a class="navbar-brand brand-sm" href="./index.html"
               ><img src="./assets/logo.png" alt=""
             /></a>
             <ul class="navbar-nav">
@@ -61,7 +61,7 @@
                 <a class="nav-link" href="#">Our Project</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="./about.html">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
@@ -100,7 +100,7 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="./assets/banner-1.jpeg"
+                src="./assets/banneri2.jpeg"
                 class="d-block w-100"
                 alt="..."
               />
@@ -114,7 +114,7 @@
             </div>
             <div class="carousel-item">
               <img
-                src="./assets/banner-1.jpeg"
+                src="./assets/modern-furniture-designs.jpg"
                 class="d-block w-100"
                 alt="..."
               />
@@ -238,9 +238,27 @@
       </div>
       <div class="clients">
         <h1>Our Clients</h1>
-        <div class="cl-img">
+        <!-- <div class="cl-img">
           <img src="./assets/caro1.png" alt="">
+        </div> -->
+        
+
+        <!--  -->
+        <div class="carousell">
+          <div class="carousell-inner">
+            <div class="carousell-item">
+              <img src="./assets/caro1.png" alt="Image 1">
+            </div>
+            <div class="carousell-item">
+              <img src="./assets/caro3.png" alt="Image 2">
+            </div>
+            <div class="carousell-item">
+              <img src="./assets/caro2.png" alt="Image 3">
+            </div>
+          </div>
         </div>
+        
+        <!--  -->
       </div>
 
       <div class="b-sell">
@@ -309,14 +327,24 @@
           </section>
           <img class="logo" src="./assets/logo.png" alt="">
         </div>
+        <div class="line"></div>
         <div class="f-center">
-
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
         </div>
+        <div class="line"></div>
         <div class="f-right">
           <h5 class="hed">SIGN UP AND SAVE</h5>
           <p>Subscribe to get special offers, free 
             giveaways, and once-in-a-lifetime deal</p>
-            <p><i class="fa-brands hed fa-facebook"></i> <i class="fa-brands hed fa-instagram"></i> info@tempusfurniture.com</p>
+            <form action="#">
+              <input type="email" placeholder="Enter Your Email">
+              <button type="submit"><i class="fa-regular fa-envelope"></i></button>
+            </form>
+            <div class="f-r-2">
+              <i class="fa-brands hed fa-facebook"></i> <i class="fa-brands hed fa-instagram"></i> <p>info@tempusfurniture.com</p>
+            </div>
+            
         </div>
       </footer>
     </div>

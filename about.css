@@ -1,0 +1,150 @@
+.banner img{
+    width: 100vw;
+}
+.page-2{
+    margin: 10vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+.page-2 p{
+    width: 60%;
+    text-align: center;
+    font-weight: 400;
+}
+.page-2 img{
+    width: 55vw;
+}
+.journey{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    margin: 10vh 0;
+}
+.journey h1{
+    text-align: center;
+}
+.journey img{
+    
+    width: 100vw;
+}
+.leaders{
+    /* width: 60%; */
+    margin: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+.leaders h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.leaders>p{
+    text-align: center;
+    width: 60%;
+}
+.leaders section p{
+    width: 80%;
+}
+.l-inner .even-c{
+    display: flex;
+    gap: 5vh;
+    align-items: center;
+    margin:0 10vh;
+}
+.l-inner .odd-c{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5vh;
+    align-items: center;
+    margin:0 10vh;
+}
+.l-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+.g-inner{
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+}
+.glimps{
+    text-align: center;
+}
+.card , .card-body{
+    border: 0 !important;
+    text-align: left;
+}
+.brands{
+    margin: 10vh 0;
+}
+.brands img{
+    width: 100vw;
+}
+
+.team{
+    margin: 10vh 0;
+
+}
+.team h1{
+    text-align: center;
+}
+.t-inner{
+    padding: 5vh 0;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+}
+.t-card{
+    border: 1px solid black !important;
+    box-shadow: 1px 4px 8.199999809265137px 0px rgba(0, 0, 0, 0.28);
+
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 574px){
+    .page-2 p{
+        width: 95% ;
+      }
+      .page-2 img{
+        width: 100vw;
+      }
+      .leaders{
+        margin: 0;
+      }
+      .leaders>p{
+        width: 95%;
+      }
+      .l-inner .even-c{
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+      }
+      .l-inner .odd-c{
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+      }
+      .leaders section p{
+        width: 95%;
+      }
+      .t-inner{
+        flex-direction: column;
+        gap: 10vh;
+      }
+      .g-inner{
+        flex-direction: column;
+      }
+      .g-inner>.card{
+        width: 20rem !important;
+      }
+}
