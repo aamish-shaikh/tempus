@@ -1,4 +1,6 @@
-
+.carousell{
+    display: none;
+}
 .banner img{
     width: 100vw;
 }
@@ -144,6 +146,9 @@
         display: flex;
         overflow: hidden;
         justify-content: center;
+    }
+    .carousell{
+    display:block;
     }
     .banner img{
         width: 220vw;
