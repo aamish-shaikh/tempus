@@ -42,6 +42,9 @@
         z-index: -5;
         background-color: rgba(146, 37, 47, 1);
     }
+    .b-inner{
+        flex-direction: column;
+    }
     .t-part{
         padding: 5vw;
     }
@@ -75,8 +78,12 @@
     }
     .gallery h5{
         text-align: center;
+        font-size: 16px;
     }
-
+    .g-card{
+        height: 50vw;
+        gap: 4vh;
+    }
     .services h4{
         font-weight: 400;
         color: rgba(147, 37, 46, 1);
@@ -98,7 +105,7 @@
         display: flex;
         flex-direction: column;
         width: 80vw;
-        height: 60vw;
+        height: 65vw;
         box-shadow: 3px 3px 7.900000095367432px 0px rgba(0, 0, 0, 0.09);
         padding: 2vw;
     }
@@ -118,6 +125,14 @@
         padding: 5vh 0;
         width: 80%;
     }
+    .count{
+        justify-content: center;
+        overflow: hidden;
+        margin: 10vh 0;
+      }
+      .counter{
+        width: 96vw;
+      }
     .b-sell img {
         width: 90%;
     }
@@ -127,11 +142,11 @@
         align-items: flex-start;
     }
     .why-us{
-        height: 24vh;
+        height: 34vh;
     }
     .why-us h1 {
         font-size: 16px;
-        padding: 1vh;
+        padding: 6vh 0;
     }
     footer{
         display: flex;
@@ -149,6 +164,4 @@
       .f-center{
         display: none;
       }
-
-
 }

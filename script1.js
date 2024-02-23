@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const carousellInner = document.querySelector(".carousell-inner");
-    const carousellItems = document.querySelectorAll(".carousell-item");
-    const totalItems = carousellItems.length;
+    const carouselOneInner = document.querySelector(".carousel-2-inner");
+    const carouselOneItems = document.querySelectorAll(".carousel-2-item");
+    const totalItems = carouselOneItems.length;
     let currentIndex = 0;
   
     function showItem(index) {
       const offset = -index * 100 + "%";
-      carousellInner.style.transform = `translateX(${offset})`;
+      carouselOneInner.style.transform = `translateX(${offset})`;
     }
   
     function next() {
@@ -16,3 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     setInterval(next, 3000); // Auto slide every 3 seconds
   });
+  
+
+
+  
